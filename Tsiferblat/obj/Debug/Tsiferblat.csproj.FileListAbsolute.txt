@@ -1,0 +1,11 @@
+D:\_Just_programs\Tsiferblat\Tsiferblat\bin\Debug\Tsiferblat.exe.config
+D:\_Just_programs\Tsiferblat\Tsiferblat\bin\Debug\Tsiferblat.exe
+D:\_Just_programs\Tsiferblat\Tsiferblat\bin\Debug\Tsiferblat.pdb
+D:\_Just_programs\Tsiferblat\Tsiferblat\obj\Debug\Tsiferblat.csproj.AssemblyReference.cache
+D:\_Just_programs\Tsiferblat\Tsiferblat\obj\Debug\Tsiferblat.Form1.resources
+D:\_Just_programs\Tsiferblat\Tsiferblat\obj\Debug\Tsiferblat.Properties.Resources.resources
+D:\_Just_programs\Tsiferblat\Tsiferblat\obj\Debug\Tsiferblat.csproj.GenerateResource.cache
+D:\_Just_programs\Tsiferblat\Tsiferblat\obj\Debug\Tsiferblat.csproj.CoreCompileInputs.cache
+D:\_Just_programs\Tsiferblat\Tsiferblat\obj\Debug\Tsiferblat.exe
+D:\_Just_programs\Tsiferblat\Tsiferblat\obj\Debug\Tsiferblat.pdb
+D:\_Just_programs\Tsiferblat\Tsiferblat\obj\Debug\Tsiferblat.What.resources
