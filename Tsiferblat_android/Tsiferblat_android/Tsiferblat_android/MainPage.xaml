@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tsiferblat_android.MainPage">
+    <FlyoutItem Title="Игра">
+        <ShellContent Title="Игра">
+            <ContentPage Title="Игра">
+                <StackLayout BackgroundColor="Gray">
+                    <StackLayout  x:Name="SL_toChange" Orientation="Vertical" VerticalOptions="FillAndExpand">
+                        <!--
+            <BoxView x:Name="myBoxView" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="White">
+                
+            </BoxView>
+            -->
+                        <!--Верхняя панель для рисунков, котоая получается у пользователя: -->
+                        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                            <Frame BorderColor="Black" BackgroundColor="White" CornerRadius="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                                <Grid x:Name="grid1" ColumnSpacing="0" RowSpacing="0">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="3*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="3*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="3*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="3*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="3*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Rectangle x:Name="r0a" Grid.Row="1" Grid.Column="2" Fill="White" Stroke="Black" StrokeThickness="1"/>
+                                    <Rectangle x:Name="r1a" Grid.Row="2" Grid.Column="1" Fill="White" Stroke="Black" StrokeThickness="1"/>
+                                    <Rectangle x:Name="r2a" Grid.Row="2" Grid.Column="3" Fill="White" Stroke="Black" StrokeThickness="1"/>
+                                    <Rectangle x:Name="r3a" Grid.Row="3" Grid.Column="2" Fill="White" Stroke="Black" StrokeThickness="1"/>
+                                    <Rectangle x:Name="r4a" Grid.Row="4" Grid.Column="1" Fill="White" Stroke="Black" StrokeThickness="1"/>
+                                    <Rectangle x:Name="r5a" Grid.Row="4" Grid.Column="3" Fill="White" Stroke="Black" StrokeThickness="1"/>
+                                    <Rectangle x:Name="r6a" Grid.Row="5" Grid.Column="2" Fill="White" Stroke="Black" StrokeThickness="1"/>
+                                </Grid>
+                            </Frame>
+                        </StackLayout>
+
+                        <!--Панели для кнопок: -->
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout VerticalOptions="EndAndExpand">
+                                <StackLayout Orientation="Horizontal">
+                                    <StackLayout Orientation="Vertical">
+                                        <Label x:Name="label_lvl" Text="LvL: ..."  HorizontalOptions="Start" VerticalOptions="CenterAndExpand"></Label>
+                                        <Label x:Name="label_scr" Text="Score: ..." HorizontalOptions="Start" VerticalOptions="CenterAndExpand"></Label>
+                                        <Label x:Name="label_act" Text="Action: ..." HorizontalOptions="Start" VerticalOptions="CenterAndExpand"></Label>
+                                    </StackLayout>
+                                    <Label x:Name="label_todo" Text="Needed figure:"  HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand"></Label>
+                                </StackLayout>
+                                <!--кусок для батонов-цифер:-->
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Button Grid.Row="0" Grid.Column="0" x:Name="btn1" Text="1" Clicked="bt1_num"/>
+                                    <Button Grid.Row="0" Grid.Column="1" x:Name="btn2" Text="2" Clicked="bt2_num"/>
+                                    <Button Grid.Row="0" Grid.Column="2" x:Name="btn3" Text="3" Clicked="bt3_num"/>
+                                    <Button Grid.Row="1" Grid.Column="0" x:Name="btn4" Text="4" Clicked="bt4_num"/>
+                                    <Button Grid.Row="1" Grid.Column="1" x:Name="btn5" Text="5" Clicked="bt5_num"/>
+                                    <Button Grid.Row="1" Grid.Column="2" x:Name="btn6" Text="6" Clicked="bt6_num"/>
+                                    <Button Grid.Row="2" Grid.Column="0" x:Name="btn7" Text="7" Clicked="bt7_num"/>
+                                    <Button Grid.Row="2" Grid.Column="1" x:Name="btn8" Text="8" Clicked="bt8_num"/>
+                                    <Button Grid.Row="2" Grid.Column="2" x:Name="btn9" Text="9" Clicked="bt9_num"/>
+                                    <Button Grid.Row="3" Grid.Column="1" x:Name="btn0" Text="0" Clicked="bt0_num"/>
+                                </Grid>
+                            </StackLayout>
+
+                            <StackLayout HorizontalOptions="FillAndExpand">
+                                <!--картинка, которую надо собрать-->
+                                <Frame BorderColor="Black" BackgroundColor="White" CornerRadius="0" VerticalOptions="FillAndExpand">
+                                    <Grid x:Name="grid2" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" ColumnSpacing="0" RowSpacing="0">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="1"/>
+                                            <RowDefinition Height="*"/>
+                                            <RowDefinition Height="3*"/>
+                                            <RowDefinition Height="*"/>
+                                            <RowDefinition Height="3*"/>
+                                            <RowDefinition Height="*"/>
+                                            <RowDefinition Height="1"/>
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="3*"/>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="3*"/>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="3*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Rectangle x:Name="r0q" Grid.Row="1" Grid.Column="2" Fill="White" Stroke="Black" StrokeThickness="1"/>
+                                        <Rectangle x:Name="r1q" Grid.Row="2" Grid.Column="1" Fill="White" Stroke="Black" StrokeThickness="1"/>
+                                        <Rectangle x:Name="r2q" Grid.Row="2" Grid.Column="3" Fill="White" Stroke="Black" StrokeThickness="1"/>
+                                        <Rectangle x:Name="r3q" Grid.Row="3" Grid.Column="2" Fill="White" Stroke="Black" StrokeThickness="1"/>
+                                        <Rectangle x:Name="r4q" Grid.Row="4" Grid.Column="1" Fill="White" Stroke="Black" StrokeThickness="1"/>
+                                        <Rectangle x:Name="r5q" Grid.Row="4" Grid.Column="3" Fill="White" Stroke="Black" StrokeThickness="1"/>
+                                        <Rectangle x:Name="r6q" Grid.Row="5" Grid.Column="2" Fill="White" Stroke="Black" StrokeThickness="1"/>
+                                    </Grid>
+                                </Frame>
+                                <!--кусок для батонов-действий:-->
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Button Grid.Row="0" Grid.Column="0" x:Name="btn_plus" Text="+"          Clicked="bt_plus"/>
+                                    <Button Grid.Row="0" Grid.Column="1" x:Name="btn_minus" Text="-"         Clicked="bt_minus"/>
+                                    <Button Grid.Row="0" Grid.Column="2" x:Name="btn_not" Text="!"           Clicked="bt_not"/>
+                                    <Button Grid.Row="1" Grid.Column="0" x:Name="btn_and" Text="&amp;&amp;"  Clicked="bt_and"/>
+                                    <Button Grid.Row="1" Grid.Column="1" x:Name="btn_or" Text="||"           Clicked="bt_or"/>
+                                    <Button Grid.Row="1" Grid.Column="2" x:Name="btn_set" Text="set"         Clicked="bt_set"/>
+                                </Grid>
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+                    <Button x:Name="btn_OK" Text="OK" HeightRequest="50" VerticalOptions="End" Clicked="bt_OK"/>
+                </StackLayout>
+            </ContentPage>
+        </ShellContent>
+    </FlyoutItem>
+    <FlyoutItem Title="Правила">
+        <ShellContent Title="Правила">
+            <ContentPage Title="Правила">
+                <StackLayout BackgroundColor="Gray">
+                    <Label Text="Задача:&#10;
+Необходимо собрать предлагаемую фигуру.&#10;&#10;
+Правила:&#10;
+Чтобы сделать ход, надо нажать на одну из кнопок действий ('+','-','!','&amp;&amp;','||','set'), затем выбрать одно из чисел. Желаемое действие отобразится на экране напротив 'Action'. Далее, если Вы согласны с выбраным действием, подтверждаете его кнопкой 'ОК'.&#10;
+Каждый ход будут отниматься очки('score'). Если Вам удалось повторить фигуру, то Вы переходите на следующий уровень и получаете 100 очков.&#10;
+Как можно догадаться, всего в игре 128 уровней, но для победы необходимо преодолеть 50.&#10;
+Каждое действие подробнее:&#10;
+'+' - бинарно накладывает на текущий результат выбранную цифру;&#10;
+'-' - отнимает от результата выбранную цифру;&#10;
+'!' - изменяет на противоположное всё, кроме выбранной цифры;&#10;
+'&amp;&amp;' - убирает всё, кроме выбранной цифры;&#10;
+'||' - накладывает на текущий результат выбранную цифру;&#10;
+'set' - ставит в результат выбранную цифру;&#10;&#10;
+Сделал: &#10;
+студент группы ПА-19-2&#10;
+Москаленко Сергей&#10;
+(с)22.04.2022" />
+                </StackLayout>
+            </ContentPage>
+        </ShellContent>
+    </FlyoutItem>
+
+</Shell>

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "76oiNBC2cyyX2mahaN1mhuQ0Cf8HPWdM5XR/a41V5nGfvc3i99GjbbWjs4zIdJhPr+DeW1fzGf11apqgDNwi8Q==",
+  "success": true,
+  "projectFilePath": "D:\\_Just_programs\\Tsiferblat\\Tsiferblat_android\\Tsiferblat_android\\Tsiferblat_android.iOS\\Tsiferblat_android.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Moskalenko\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

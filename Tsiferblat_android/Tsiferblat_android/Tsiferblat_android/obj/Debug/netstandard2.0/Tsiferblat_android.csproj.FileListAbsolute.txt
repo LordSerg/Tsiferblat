@@ -1,0 +1,15 @@
+D:\_Just_programs\Tsiferblat\Tsiferblat_android\Tsiferblat_android\Tsiferblat_android\bin\Debug\netstandard2.0\Tsiferblat_android.deps.json
+D:\_Just_programs\Tsiferblat\Tsiferblat_android\Tsiferblat_android\Tsiferblat_android\bin\Debug\netstandard2.0\Tsiferblat_android.dll
+D:\_Just_programs\Tsiferblat\Tsiferblat_android\Tsiferblat_android\Tsiferblat_android\bin\Debug\netstandard2.0\ref\Tsiferblat_android.dll
+D:\_Just_programs\Tsiferblat\Tsiferblat_android\Tsiferblat_android\Tsiferblat_android\bin\Debug\netstandard2.0\Tsiferblat_android.pdb
+D:\_Just_programs\Tsiferblat\Tsiferblat_android\Tsiferblat_android\Tsiferblat_android\obj\Debug\netstandard2.0\Tsiferblat_android.csproj.AssemblyReference.cache
+D:\_Just_programs\Tsiferblat\Tsiferblat_android\Tsiferblat_android\Tsiferblat_android\obj\Debug\netstandard2.0\Tsiferblat_android.GeneratedMSBuildEditorConfig.editorconfig
+D:\_Just_programs\Tsiferblat\Tsiferblat_android\Tsiferblat_android\Tsiferblat_android\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\_Just_programs\Tsiferblat\Tsiferblat_android\Tsiferblat_android\Tsiferblat_android\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\_Just_programs\Tsiferblat\Tsiferblat_android\Tsiferblat_android\Tsiferblat_android\obj\Debug\netstandard2.0\Tsiferblat_android.AssemblyInfoInputs.cache
+D:\_Just_programs\Tsiferblat\Tsiferblat_android\Tsiferblat_android\Tsiferblat_android\obj\Debug\netstandard2.0\Tsiferblat_android.AssemblyInfo.cs
+D:\_Just_programs\Tsiferblat\Tsiferblat_android\Tsiferblat_android\Tsiferblat_android\obj\Debug\netstandard2.0\Tsiferblat_android.csproj.CoreCompileInputs.cache
+D:\_Just_programs\Tsiferblat\Tsiferblat_android\Tsiferblat_android\Tsiferblat_android\obj\Debug\netstandard2.0\XamlC.stamp
+D:\_Just_programs\Tsiferblat\Tsiferblat_android\Tsiferblat_android\Tsiferblat_android\obj\Debug\netstandard2.0\Tsiferblat_android.dll
+D:\_Just_programs\Tsiferblat\Tsiferblat_android\Tsiferblat_android\Tsiferblat_android\obj\Debug\netstandard2.0\ref\Tsiferblat_android.dll
+D:\_Just_programs\Tsiferblat\Tsiferblat_android\Tsiferblat_android\Tsiferblat_android\obj\Debug\netstandard2.0\Tsiferblat_android.pdb
